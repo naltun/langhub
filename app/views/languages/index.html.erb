@@ -1,0 +1,29 @@
+<h3>Languages</h3>
+
+<table class="table table-striped table-hover table-sm">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Year</th>
+      <th>License</th>
+      <th>Description</th>
+      <%# <th colspan="3"></th> %>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @languages.each do |language| %>
+      <tr>
+        <td><%= language.name %></td>
+        <td><%= language.year %></td>
+        <td><%= language.license %></td>
+        <td><%= language.description %></td>
+        <!-- <td>
+          <button type="button" class="btn btn-info"><%= link_to 'Show', language %></button>
+        </td> -->
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>

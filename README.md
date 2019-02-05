@@ -1,24 +1,8 @@
-# README
+# LangHub
+###### Learn about programming languages
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### What is LangHub?
+Langhub is a place to learn about programming languages. Browse through the list, and learn something new with!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### License
+This software is proudly licensed under a Free/Libre, Open Source Software license, specifically the GNU GPLv2. For more information on Free/Libre, Open Source Software, please visit [Wikipedia](https://en.wikipedia.org/wiki/Free_software_movement).
