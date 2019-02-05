@@ -24,6 +24,55 @@ languages = Language.create([
   },
 
   {
+    name: 'Go',
+    year: 2009,
+    license: 'BSD',
+    description: 'Go is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. Go is a statically typed compiled language in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added. The compiler, tools and source code are all free and open source. (Wikipedia)',
+  },
+
+  {
+    name: 'JavaScript',
+    year: 1995,
+    license: 'Implementation Specific',
+    description: 'JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm. (Wikipedia)'
+  },
+
+  {
+    name: 'OCaml',
+    year: 1996,
+    license: 'LGPL',
+    description: 'OCaml, originally named Objective Caml, is the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs. (Wikipedia)'
+  },
+
+  {
+    name: 'Perl',
+    year: 2015,
+    license: 'GNU GPLv || Artistic License 2',
+    description: 'Perl 6 (also known as Raku) is a member of the Perl family of programming languages. While historically several interpreter and compiler implementations were being written, today only the Rakudo Perl 6 implementation is in active development. It is introducing elements of many modern and historical languages. Compatibility with Perl 5 is not a goal, though a compatibility mode is part of the specification. (Wikipedia)'
+  },
+
+  {
+    name: 'Python',
+    year: 1990,
+    license: 'Python Software Foundation License',
+    description: 'Python is an interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales. (Wikipedia)'
+  },
+
+  {
+    name: 'Red',
+    year: 2011,
+    license: 'Modified BSD',
+    description: 'Red is a computer programming language. Red was made to overcome the limitations of the programming language Rebol. Introduced in 2011 by Nenad Rakocevic, Red is both an imperative and functional programming language. Its syntax and general usage overlaps that of the interpreted Rebol language. (Wikipedia)'
+  },
+  
+  {
+    name: 'Ruby',
+    year: 1995,
+    license: 'Ruby && (GPLv2 || Simplified BSD License)',
+    description: 'Ruby is a dynamic, interpreted, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. (Wikipedia)'
+  },
+
+  {
     name: 'Rust',
     year: 2010,
     license: 'MIT || Apache License 2.0',

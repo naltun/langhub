@@ -7,7 +7,7 @@
       <th>Year</th>
       <th>License</th>
       <th>Description</th>
-      <%# <th colspan="3"></th> %>
+      <th colspan="3"></th>
     </tr>
   </thead>
 
@@ -18,9 +18,9 @@
         <td><%= language.year %></td>
         <td><%= language.license %></td>
         <td><%= language.description %></td>
-        <!-- <td>
-          <button type="button" class="btn btn-info"><%= link_to 'Show', language %></button>
-        </td> -->
+        <td>
+          <button type="button" class="btn btn-link"><%= link_to 'Show More', language %></button>
+        </td>
       </tr>
     <% end %>
   </tbody>
