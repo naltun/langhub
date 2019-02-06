@@ -10,6 +10,8 @@ class LanguagesController < ApplicationController
   # GET /languages/1
   # GET /languages/1.json
   def show
+    @language = Language.find(params[:id])
+    @name = @language.name
   end
 
   private
